@@ -767,13 +767,7 @@ img {
  }
 .subscribe-form{
     margin-top: 20px;
-    /*display: flex;*/
 }
-/*.subscribe-form label{
-    display: flex;
-    align-items: center;  
-}*/
-
 .subscribe-input{
     width: 358px;
     height: 50px;
@@ -820,21 +814,16 @@ img {
 .filter-list{
     display: flex;
     justify-content: center;
-
     margin-bottom: 50px;
-    
 }
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-
-     /*outline: 2px solid red;
-    background-color: coral;*/
 }
-.filter-list-item+.filter-list-item {
+.filter-list__item+.filter-list__item {
     margin-left: 8px;
 }
-.filter-button {
+.filter-list__button {
     margin: 0 auto;
     border-radius: 4px ;
     padding: 6px 22px;
@@ -863,8 +852,8 @@ img {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.filter-button:hover,
-.filter-button:focus {
+.filter-list__button:hover,
+.filter-list__button:focus {
     background-color: var(--accent-color);
     color: var(--primary-color-white);
 }
@@ -877,19 +866,19 @@ img {
     margin: -15px; 
 }
 /*Тени*/
-.projects-list-item{
+.projects-list__item{
     margin: 15px;
     flex-basis: calc((100% - 90px) / 3);
 }
-.projects-link:hover,
-.projects-link:focus{
+.projects-list__link:hover,
+.projects-list__link:focus{
     display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
      0px 4px 4px rgba(0, 0, 0, 0.06),
      1px 4px 6px rgba(0, 0, 0, 0.16);
      transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects-list-title {
+.projects-list__title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -900,14 +889,14 @@ img {
 
     margin-bottom: 4px;
 }
-.projects-list-text {
+.projects-list__text {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     text-transform: none;
 }
-.projects-link{
+.projects-list__link{
      text-transform: none;
      text-decoration: none;
 }
@@ -940,8 +929,8 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(101%);
 }
-.projects-link:hover .projects-list-item-overlay-text,
-.projects-link:focus .projects-list-item-overlay-text{
+.projects-list__link:hover .projects-list-item-overlay-text,
+.projects-list__link:focus .projects-list-item-overlay-text{
     transform: translateY(0%);
 }
 
