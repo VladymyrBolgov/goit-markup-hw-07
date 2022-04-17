@@ -75,9 +75,6 @@ img {
     display: flex;
     align-items: center;
 }
-/*.nav-list .nav-item:not(:last-child){
-    margin-right: 50px;
-}*/
 .nav-list .nav-list__item+.nav-list__item {
     margin-left: 50px;
 }
@@ -103,6 +100,7 @@ img {
     background-color: var(--accent-color);
 }
 /*   конец   */
+
 .contact-item+.contact-item{
    margin-left: 50px;
 }
@@ -434,7 +432,7 @@ img {
 
 /* ПРЕТМУЩЕСТВА*/
 
-.benefits-title {
+.benefits-list__title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -443,7 +441,7 @@ img {
     letter-spacing: 0.03em;
     margin-bottom: 10px;
 }
-.benefits-text {
+.benefits-list__text {
     color: var(--primary-text-color);
     font-size: 14px;
     line-height: 1.71;
@@ -454,7 +452,7 @@ img {
 .benefits-list{
     display: flex;
 }
-.benefits-list .benefits-item+.benefits-item {
+.benefits-list .benefits-list__item+.benefits-list__item {
     margin-left: 30px;
 }
 .section {
@@ -475,7 +473,7 @@ img {
 
 /* ИКОНКИ размещение. */
 
-.benefits-link{
+.benefits-list__link{
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
@@ -484,29 +482,7 @@ img {
     align-items: center;
     justify-content: center;
 }
-  /* Второй вариант через :before*/
-/*.benefits-item::before{
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    background-size: 70px 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #F5F4FA;
-}
-.benefits-item:nth-child(1)::before{
-    background-image: url(../images/icon/antenna.svg);
-}
-.benefits-item:nth-child(2)::before{
-    background-image: url(../images/icon/clock.svg);
-}
-.benefits-item:nth-child(3)::before{
-    background-image: url(../images/icon/diagram.svg);
-}
-.benefits-item:nth-child(4)::before{
-    background-image: url(../images/icon/astronaut.svg);
-}*/
+
 
 /* Чем мы занимаемся----------*/
 
