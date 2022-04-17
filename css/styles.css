@@ -585,16 +585,16 @@ img {
 }
 /* Иконки соцсети*/
 
-.social-team{
+.social-list{
   display: flex; 
   justify-content: center; 
   margin-top: 16px;
 }
-.social-team-icon{
+.social-list__icon{
     fill:  #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-team-links{
+.social-list__link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -604,15 +604,15 @@ img {
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-team-links:hover,
-.social-team-links:focus{
+.social-list__link:hover,
+.social-list__link:focus{
     background-color: var(--color-box-button);
 }
-.social-team-links:hover .social-team-icon,
-.social-team-links:focus .social-team-icon{
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon{
     fill: var(--primary-color-white); 
 }
-.social-team-item+.social-team-item{
+.social-list__item+.social-list__item{
     margin-left: 10px;
 }
 
