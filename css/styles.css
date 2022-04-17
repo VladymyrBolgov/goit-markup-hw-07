@@ -483,7 +483,6 @@ img {
     justify-content: center;
 }
 
-
 /* Чем мы занимаемся----------*/
 
 .directions-title{
@@ -500,7 +499,7 @@ img {
     padding-top: 50px;  
 }
 
-.directions-item+.directions-item{
+.directions-list__item+.directions-list__item{
     margin-left: 30px;
 }
 .directions.section{
@@ -509,10 +508,10 @@ img {
 }
 
 /* ПОЗИЦИОНИРОВАНИЕ----------------*/
-.directions-item{
+.directions-list__item{
     position: relative;
 }
-.directions-posit-text{
+.directions-list__text{
     position: absolute;
     bottom: 0;
     width: 100%;
