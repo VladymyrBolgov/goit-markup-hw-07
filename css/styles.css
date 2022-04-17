@@ -553,9 +553,6 @@ img {
 }
 .team {
     background-color: var(--background-button-member);
-
-    /*outline: 2px solid red;
-    background-color: coral;*/
 }
 .team-item {
     background-color: var(--primary-color-white);
@@ -618,33 +615,6 @@ img {
 .social-team-item+.social-team-item{
     margin-left: 10px;
 }
-/*.social-team{    второй вариант
-    display: flex;
-    justify-content: center;
-}
-.social-team-item{
-    margin-top: 16px;
-}
-.social-team-item+.social-team-item{
-    margin-left: 9px;
-}
-.social-team-links{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: #AFB1B8; 
-}
-.social-team-icon{
-    fill: currentColor;
-}
-.social-team-links:hover,
-.social-team-links:focus  {  
-   background-color: var(--color-box-button);
-   color: var(--primary-color-white);
-}*/
 
 /*Постоянные клиентые*/
 
