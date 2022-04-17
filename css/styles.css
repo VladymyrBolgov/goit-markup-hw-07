@@ -718,12 +718,12 @@ img {
     letter-spacing: 0.03em;
 }
 
-.footer-social{
+.footer-social-list{
     display: flex; 
     justify-content: center; 
     margin-top: 20px;
 }
-.footer-social-link{
+.footer-social-list__link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -738,17 +738,17 @@ img {
     display: flex;
     align-items: baseline;
 }
-.footer-social-item+.footer-social-item{
+.footer-social-list__item+.footer-social-list__item{
     margin-left: 10px;
 }
-.footer-social-list{
+.footer-social{
     margin-left: 70px;
 }
-.footer-social-icon{
+.footer-social-list__icon{
     fill: var(--primary-color-white);
 }
-.footer-social-link:hover,
-.footer-social-link:focus{
+.footer-social-list__link:hover,
+.footer-social-list__link:focus{
     background-color: var(--accent-color);
 }
 
