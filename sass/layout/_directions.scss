@@ -17,10 +17,12 @@
 }
 .directions-list__item{
    position: relative;
+
+   &+.directions-list__item{
+      margin-left: 30px;
+   }
 }
-.directions-list__item+.directions-list__item{
-   margin-left: 30px;
-}
+
 .directions-list__text{
    position: absolute;
    bottom: 0;
