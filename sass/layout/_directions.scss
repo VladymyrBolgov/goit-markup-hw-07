@@ -1,3 +1,7 @@
+.directions.section{
+   padding-top: 0; 
+   padding-bottom: 0;
+}
 .directions-title{
     color: var(--title-text-color);
     font-weight: 700;
@@ -11,16 +15,11 @@
    display: flex;
    padding-top: 50px;  
 }
-
-.directions-list__item+.directions-list__item{
-   margin-left: 30px;
-}
-.directions.section{
-   padding-top: 0; 
-   padding-bottom: 0;
-}
 .directions-list__item{
    position: relative;
+}
+.directions-list__item+.directions-list__item{
+   margin-left: 30px;
 }
 .directions-list__text{
    position: absolute;

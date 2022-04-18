@@ -679,6 +679,11 @@ img {
   max-width: 270px;
 }
 
+.directions.section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .directions-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -696,17 +701,12 @@ img {
   padding-top: 50px;
 }
 
-.directions-list__item + .directions-list__item {
-  margin-left: 30px;
-}
-
-.directions.section {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 .directions-list__item {
   position: relative;
+}
+
+.directions-list__item + .directions-list__item {
+  margin-left: 30px;
 }
 
 .directions-list__text {
@@ -830,16 +830,14 @@ img {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.clients-list__link:hover, .clients-list__link:focus {
+  border-color: var(--color-box-button);
+}
 
 .clients-list__icon {
   fill: #AFB1B8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-list__link:hover,
-.clients-list__link:focus {
-  border-color: var(--color-box-button);
 }
 
 .clients-list__link:hover .clients-list__icon,
@@ -1010,9 +1008,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.filter-list__button:hover,
-.filter-list__button:focus {
+.filter-list__button:hover, .filter-list__button:focus {
   background-color: var(--accent-color);
   color: var(--primary-color-white);
 }
