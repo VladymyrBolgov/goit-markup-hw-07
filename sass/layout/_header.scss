@@ -27,12 +27,13 @@
 .nav-list {
     margin-left: 90px;
 }
-.nav-list .nav-list__item+.nav-list__item {
-    margin-left: 50px;
-}
 .nav-list__item {
     position: relative;
 }
+.nav-list .nav-list__item+.nav-list__item {
+    margin-left: 50px;
+}
+
 .nav-list__link {
     display: block;
     padding-top: 32px;
@@ -95,7 +96,7 @@
     align-items: center;
     color: var(--primary-text-color);
 &:hover,
-&k:focus {
+&:focus {
     color: var(--accent-color); 
 }
 }
