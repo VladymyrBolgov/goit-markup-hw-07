@@ -330,10 +330,8 @@ img {
   margin-top: 16px;
 }
 
-.social-list__icon {
-  fill: #AFB1B8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.social-list__item + .social-list__item {
+  margin-left: 10px;
 }
 
 .social-list__link {
@@ -353,19 +351,19 @@ img {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-list__link:hover,
-.social-list__link:focus {
+.social-list__link:hover, .social-list__link:focus {
   background-color: var(--color-box-button);
+}
+
+.social-list__icon {
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list__link:hover .social-list__icon,
 .social-list__link:focus .social-list__icon {
   fill: var(--primary-color-white);
-}
-
-.social-list__item + .social-list__item {
-  margin-left: 10px;
 }
 
 .footer-container {
@@ -632,29 +630,8 @@ img {
   padding: 10px 32px;
   border: transparent;
 }
-
-.box-button:hover,
-.box-button:focus {
+.box-button:hover, .box-button:focus {
   background-color: var(--color-box-button);
-}
-
-.benefits-list__title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.17;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  margin-bottom: 10px;
-}
-
-.benefits-list__text {
-  color: var(--primary-text-color);
-  font-size: 14px;
-  line-height: 1.71;
-  text-transform: none;
-  letter-spacing: 0.03em;
-  max-width: 270px;
 }
 
 .benefits-list {
@@ -681,6 +658,25 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.benefits-list__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.benefits-list__text {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  text-transform: none;
+  letter-spacing: 0.03em;
+  max-width: 270px;
 }
 
 .directions-title {
