@@ -1046,9 +1046,7 @@ img {
   -webkit-transform: translateY(101%);
           transform: translateY(101%);
 }
-
-.projects-list__link:hover .projects-list__overlay-text,
-.projects-list__link:focus .projects-list__overlay-text {
+.projects-list__link:hover .projects-list__overlay-text, .projects-list__link:focus .projects-list__overlay-text {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
 }
