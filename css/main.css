@@ -425,7 +425,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -445,7 +445,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.logo-color {
+.logo__color {
   color: var(--color-logo);
 }
 
