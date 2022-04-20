@@ -523,7 +523,8 @@ img {
   margin-right: 10px;
 }
 
-.link {
+.nav-list__link,
+.contact__link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -532,7 +533,9 @@ img {
   text-transform: none;
   letter-spacing: 0.02em;
 }
-.link:hover, .link:focus {
+.nav-list__link:hover, .nav-list__link:focus,
+.contact__link:hover,
+.contact__link:focus {
   color: var(--accent-color);
 }
 
