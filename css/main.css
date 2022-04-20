@@ -671,7 +671,7 @@ img {
   max-width: 270px;
 }
 
-.directions.section {
+.section.section__directions {
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -723,7 +723,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.team {
+.section__team {
   background-color: var(--background-button-member);
 }
 
@@ -748,7 +748,7 @@ img {
   padding: 30px 0;
 }
 
-.team-list__name {
+.team-list__title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -758,7 +758,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.team-list__position {
+.team-list__text {
   margin-top: 10px;
   color: var(--primary-text-color);
   font-size: 16px;
