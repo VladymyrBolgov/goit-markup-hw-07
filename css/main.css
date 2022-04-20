@@ -676,7 +676,7 @@ img {
   padding-bottom: 0;
 }
 
-.directions-title {
+.section__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -727,16 +727,6 @@ img {
   background-color: var(--background-button-member);
 }
 
-.team-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  text-transform: none;
-  letter-spacing: 0.03em;
-}
-
 .team-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -772,16 +762,6 @@ img {
   margin-top: 10px;
   color: var(--primary-text-color);
   font-size: 16px;
-  line-height: 1.17;
-  text-align: center;
-  text-transform: none;
-  letter-spacing: 0.03em;
-}
-
-.clients-title {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
   line-height: 1.17;
   text-align: center;
   text-transform: none;
